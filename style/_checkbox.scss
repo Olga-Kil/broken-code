@@ -1,0 +1,42 @@
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.1rem;
+    cursor: pointer;
+}
+
+.radio__elem {
+    display: none;
+
+    &:checked ~ .checkbox__vis {
+        &::before {
+            display: block;
+        }
+    }
+
+&:checked  {
+    &::before {
+        display: block;
+    }
+}
+}
+
+
+.checkbox__vis {
+    width: 1.4rem;
+    height: 1.4rem;  
+    position: relative; 
+    background: #fff; 
+    &:before {
+        content: "";
+        display: none;
+        width: 0.7rem;
+        height: 0.7rem;  
+        background: url(../img/checkmark.png) center no-repeat;
+        border-radius: 50%;  
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,0 +1,26 @@
+.button {
+    background:rgb(254, 219, 63);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 100px;
+    padding: 1.167rem 2.278rem 1.167rem 2.278rem;
+    text-transform: uppercase;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.889rem;
+    line-height: 1rem;
+    transition: 0.3s all ;
+    text-decoration: none;
+    display: block;
+    width: 8.6rem;
+    height: 3.3rem;
+    margin-top: 2.2rem;
+    margin-bottom: 2.5rem;
+
+    @include tablet {
+        margin-left: 40%;
+    }
+}

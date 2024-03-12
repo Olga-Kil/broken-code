@@ -1,0 +1,33 @@
+.hello {
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+}
+
+.hello__list {
+  display: flex;
+  padding-top: 0.8rem;
+  padding-bottom: 2.5rem;
+}
+
+/*
+.hello__list {
+    @include tablet {
+        display: none;
+    }
+} */
+.hello__item {
+  display: flex;
+  justify-content: space-between;
+  width: 7.8rem;
+  height: 2.3rem;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: 0px;
+  margin-right: 1.6rem;
+}
+.hello__item:last-child {
+  margin-right: 0;
+}
+.hello__item .hello__icon {
+  margin-right: 0.5rem;
+}

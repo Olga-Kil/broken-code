@@ -1,0 +1,109 @@
+html {
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    color: #fff;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+  * {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.722rem;
+    letter-spacing: 0px;
+    margin-top: 6.667rem;
+}
+
+h3 {
+    font-size: 1.333rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section {
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 940px;
+    height: 36.2rem;
+}
+
+h1 {
+color: #fff;
+font-size: 3.333rem;
+font-weight: 700;
+line-height: 3.556rem;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 5.833rem;
+margin-bottom: 1.167rem;
+width: 35.389rem;
+height: 10.778rem;
+}
+

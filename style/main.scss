@@ -1,0 +1,30 @@
+$z-fixed-menu: 2;
+
+//breakpoints
+$tablet: 768px;
+$phone: 480px;
+
+@import url(../style/normalize.css);
+@import "./_media";
+@import "./_base.scss";
+@import "./_hello.scss";
+@import "./header";
+@import "./menu.scss";
+@import "./_contact.scss";
+@import "./center.scss";
+@import "./_heading.scss";
+@import "./button.scss";
+@import "./_about.scss";
+@import "./_product.scss";
+@import "./_comand.scss";
+@import "./_service.scss";
+@import "./_reviews.scss";
+@import "./_video.scss";
+@import "./_order.scss";
+@import "./_form.scss";
+@import "./_radio.scss";
+@import "./_checkbox.scss";
+@import "./_map.scss";
+@import "./_footer.scss";
+@import "./_fixed-menu.scss";
+@import "./burger.scss";

@@ -1,0 +1,14 @@
+.contact {
+    padding-top: 0.5rem;
+    font-size: 1.222rem;
+    font-weight: 700;
+    white-space: nowrap;
+    &:before {
+        content: url(../img/icon_phone.png);
+        flex-shrink: 0;
+        
+        @include tablet {
+            display: none;
+        }
+    }
+}
